@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	089C165DFE840E0CC02AAC07 /* English */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 109}";
+		};
+	};
+	257572C2072881A4000BE9CA /* Prey Installer */ = {
+		activeExec = 0;
+		executables = (
+			25D9445407B1533600FF306F /* Prey Installer */,
+		);
+	};
+	257572D5072881A4000BE9CA /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{15, 138}, {925, 885}}";
+		};
+	};
+	25D9445407B1533600FF306F /* Prey Installer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+			"PBXLSLaunchAction-1" = {
+				PBXLSLaunchAction = 1;
+				PBXLSLaunchStartAction = 1;
+				PBXLSLaunchStdioStyle = 2;
+				PBXLSLaunchStyle = 0;
+				class = ASKDebuggerLaunchConfig;
+				displayName = "AppleScript Debugger";
+				identifier = com.apple.AppleScriptStudio.ASKDebugLaunchConfig;
+				remoteHostInfo = "";
+				startActionInfo = "";
+			};
+		};
+		customDataFormattersEnabled = 1;
+		debuggerPlugin = ASKDebugger;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+			{
+				active = NO;
+				name = AEDebug;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugSends;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugReceives;
+				value = 1;
+			},
+			{
+				active = NO;
+				name = AEDebugVerbose;
+				value = 1;
+			},
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "Prey Installer";
+		sourceDirectories = (
+		);
+	};
+	25D9445A07B1533700FF306F /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+		};
+		scmType = "";
+	};
+	25D9445B07B1533700FF306F /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 25D9445407B1533600FF306F /* Prey Installer */;
+		activeTarget = 257572C2072881A4000BE9CA /* Prey Installer */;
+		addToTargets = (
+			257572C2072881A4000BE9CA /* Prey Installer */,
+		);
+		codeSenseManager = 25D9445B07B1533700FF306F /* Code sense */;
+		executables = (
+			25D9445407B1533600FF306F /* Prey Installer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					1233,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 265593115;
+			PBXWorkspaceStateSaveDate = 265593115;
+		};
+		perUserProjectItems = {
+			5A90F1DA0FD4A99300696802 /* PBXBookmark */ = 5A90F1DA0FD4A99300696802 /* PBXBookmark */;
+			5A90F1DF0FD4A99300696802 /* PBXTextBookmark */ = 5A90F1DF0FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1E00FD4A99300696802 /* PlistBookmark */ = 5A90F1E00FD4A99300696802 /* PlistBookmark */;
+			5A90F1E10FD4A99300696802 /* PBXTextBookmark */ = 5A90F1E10FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1E40FD4A99300696802 /* PBXBookmark */ = 5A90F1E40FD4A99300696802 /* PBXBookmark */;
+			5A90F1E50FD4A99300696802 /* PBXTextBookmark */ = 5A90F1E50FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1E60FD4A99300696802 /* PBXTextBookmark */ = 5A90F1E60FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1E70FD4A99300696802 /* PBXTextBookmark */ = 5A90F1E70FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1E80FD4A99300696802 /* PBXBookmark */ = 5A90F1E80FD4A99300696802 /* PBXBookmark */;
+			5A90F1E90FD4A99300696802 /* PlistBookmark */ = 5A90F1E90FD4A99300696802 /* PlistBookmark */;
+			5A90F1EA0FD4A99300696802 /* PBXBookmark */ = 5A90F1EA0FD4A99300696802 /* PBXBookmark */;
+			5A90F1EB0FD4A99300696802 /* PBXTextBookmark */ = 5A90F1EB0FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1EC0FD4A99300696802 /* PlistBookmark */ = 5A90F1EC0FD4A99300696802 /* PlistBookmark */;
+			5A90F1ED0FD4A99300696802 /* PBXTextBookmark */ = 5A90F1ED0FD4A99300696802 /* PBXTextBookmark */;
+			5A90F1EE0FD4A99300696802 /* PBXBookmark */ = 5A90F1EE0FD4A99300696802 /* PBXBookmark */;
+			5A90F1EF0FD4A99300696802 /* PlistBookmark */ = 5A90F1EF0FD4A99300696802 /* PlistBookmark */;
+			5A90F1F00FD4A99300696802 /* PBXBookmark */ = 5A90F1F00FD4A99300696802 /* PBXBookmark */;
+			5A90F1F10FD4A99300696802 /* PBXBookmark */ = 5A90F1F10FD4A99300696802 /* PBXBookmark */;
+			5A90F1F50FD4A99300696802 /* PBXBookmark */ = 5A90F1F50FD4A99300696802 /* PBXBookmark */;
+			5A90F1F60FD4A99300696802 /* PlistBookmark */ = 5A90F1F60FD4A99300696802 /* PlistBookmark */;
+			5A90F1F70FD4A99300696802 /* PBXTextBookmark */ = 5A90F1F70FD4A99300696802 /* PBXTextBookmark */;
+			5A90F2030FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2030FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2060FD4AC4600696802 /* PlistBookmark */ = 5A90F2060FD4AC4600696802 /* PlistBookmark */;
+			5A90F2070FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2070FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2090FD4AC4600696802 /* PlistBookmark */ = 5A90F2090FD4AC4600696802 /* PlistBookmark */;
+			5A90F20A0FD4AC4600696802 /* PBXTextBookmark */ = 5A90F20A0FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F20B0FD4AC4600696802 /* PlistBookmark */ = 5A90F20B0FD4AC4600696802 /* PlistBookmark */;
+			5A90F20C0FD4AC4600696802 /* PBXTextBookmark */ = 5A90F20C0FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F20D0FD4AC4600696802 /* PlistBookmark */ = 5A90F20D0FD4AC4600696802 /* PlistBookmark */;
+			5A90F20E0FD4AC4600696802 /* PBXTextBookmark */ = 5A90F20E0FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F20F0FD4AC4600696802 /* PBXTextBookmark */ = 5A90F20F0FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2100FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2100FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2110FD4AC4600696802 /* PBXBookmark */ = 5A90F2110FD4AC4600696802 /* PBXBookmark */;
+			5A90F2120FD4AC4600696802 /* PBXBookmark */ = 5A90F2120FD4AC4600696802 /* PBXBookmark */;
+			5A90F2130FD4AC4600696802 /* PBXBookmark */ = 5A90F2130FD4AC4600696802 /* PBXBookmark */;
+			5A90F2140FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2140FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2150FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2150FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2160FD4AC4600696802 /* PlistBookmark */ = 5A90F2160FD4AC4600696802 /* PlistBookmark */;
+			5A90F2170FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2170FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F2180FD4AC4600696802 /* PlistBookmark */ = 5A90F2180FD4AC4600696802 /* PlistBookmark */;
+			5A90F2190FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2190FD4AC4600696802 /* PBXTextBookmark */;
+			5A90F21A0FD4AC4600696802 /* PBXBookmark */ = 5A90F21A0FD4AC4600696802 /* PBXBookmark */;
+			5A90F2350FD4AE5800696802 /* PBXBookmark */ = 5A90F2350FD4AE5800696802 /* PBXBookmark */;
+			5A90F2360FD4AE5800696802 /* PBXTextBookmark */ = 5A90F2360FD4AE5800696802 /* PBXTextBookmark */;
+			5A90F2370FD4AE5800696802 /* PBXTextBookmark */ = 5A90F2370FD4AE5800696802 /* PBXTextBookmark */;
+			5A90F2380FD4AE5800696802 /* PBXBookmark */ = 5A90F2380FD4AE5800696802 /* PBXBookmark */;
+			5A90F2390FD4AE5800696802 /* PBXTextBookmark */ = 5A90F2390FD4AE5800696802 /* PBXTextBookmark */;
+			5A90F23A0FD4AE5800696802 /* PBXBookmark */ = 5A90F23A0FD4AE5800696802 /* PBXBookmark */;
+			5A90F23B0FD4AE5800696802 /* PBXTextBookmark */ = 5A90F23B0FD4AE5800696802 /* PBXTextBookmark */;
+			5A90F23C0FD4AE5800696802 /* PBXTextBookmark */ = 5A90F23C0FD4AE5800696802 /* PBXTextBookmark */;
+			5A90F23D0FD4AE5800696802 /* PBXTextBookmark */ = 5A90F23D0FD4AE5800696802 /* PBXTextBookmark */;
+			5A90F23E0FD4AE5800696802 /* PBXBookmark */ = 5A90F23E0FD4AE5800696802 /* PBXBookmark */;
+			5A90F2400FD4B12700696802 /* PBXTextBookmark */ = 5A90F2400FD4B12700696802 /* PBXTextBookmark */;
+			5AFA97660FD49D51004A3823 /* PBXTextBookmark */ = 5AFA97660FD49D51004A3823 /* PBXTextBookmark */;
+			5AFA97670FD49D51004A3823 /* PBXTextBookmark */ = 5AFA97670FD49D51004A3823 /* PBXTextBookmark */;
+			5AFA97680FD49D51004A3823 /* PBXBookmark */ = 5AFA97680FD49D51004A3823 /* PBXBookmark */;
+		};
+		sourceControlManager = 25D9445A07B1533700FF306F /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 197}";
+		};
+	};
+	5A90F1DA0FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65359356078DD41800E8BB2F /* AppleScriptKit.sdef */;
+	};
+	5A90F1DF0FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2429;
+		vrLoc = 141;
+	};
+	5A90F1E00FD4A99300696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F1E10FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F1E40FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F1E50FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F1E60FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 179;
+	};
+	5A90F1E70FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F1E80FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65359356078DD41800E8BB2F /* AppleScriptKit.sdef */;
+	};
+	5A90F1E90FD4A99300696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F1EA0FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
+	};
+	5A90F1EB0FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F1EC0FD4A99300696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+			CFBundleIconFile,
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F1ED0FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 179;
+	};
+	5A90F1EE0FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
+	};
+	5A90F1EF0FD4A99300696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F1F00FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
+	};
+	5A90F1F10FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F1F50FD4A99300696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 65359356078DD41800E8BB2F /* AppleScriptKit.sdef */;
+	};
+	5A90F1F60FD4A99300696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F1F70FD4A99300696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F2030FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	5A90F2060FD4AC4600696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F2070FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F2090FD4AC4600696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F20A0FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F20B0FD4AC4600696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F20C0FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F20D0FD4AC4600696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F20E0FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F20F0FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	5A90F2100FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 179;
+	};
+	5A90F2110FD4AC4600696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F2120FD4AC4600696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F2130FD4AC4600696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
+	};
+	5A90F2140FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 179;
+	};
+	5A90F2150FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F2160FD4AC4600696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F2170FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F2180FD4AC4600696802 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	5A90F2190FD4AC4600696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5A90F21A0FD4AC4600696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F2220FD4AC6600696802 /* en */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 2114}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1457}";
+		};
+	};
+	5A90F2230FD4AC6600696802 /* es */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 2142}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1478}";
+		};
+	};
+	5A90F2350FD4AE5800696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F2360FD4AE5800696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5A90F2220FD4AC6600696802 /* en */;
+		name = "en: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1457;
+		vrLoc = 0;
+	};
+	5A90F2370FD4AE5800696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5A90F2230FD4AC6600696802 /* es */;
+		name = "es: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 0;
+	};
+	5A90F2380FD4AE5800696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
+	};
+	5A90F2390FD4AE5800696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 179;
+	};
+	5A90F23A0FD4AE5800696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	5A90F23B0FD4AE5800696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5A90F2220FD4AC6600696802 /* en */;
+		name = "en: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1457;
+		vrLoc = 0;
+	};
+	5A90F23C0FD4AE5800696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 5A90F2230FD4AC6600696802 /* es */;
+		name = "es: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1478;
+		vrLoc = 0;
+	};
+	5A90F23D0FD4AE5800696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 95";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2391;
+		vrLoc = 179;
+	};
+	5A90F23E0FD4AE5800696802 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
+	};
+	5A90F2400FD4B12700696802 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 97";
+		rLen = 0;
+		rLoc = 4665;
+		rType = 0;
+		vrLen = 2253;
+		vrLoc = 2124;
+	};
+	5AFA97660FD49D51004A3823 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 149;
+		vrLoc = 0;
+	};
+	5AFA97670FD49D51004A3823 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 109;
+		vrLoc = 0;
+	};
+	5AFA97680FD49D51004A3823 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AFA974B0FD48EE8004A3823 /* prey.png */;
+	};
+	DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {839, 1388}}";
+			sepNavSelRange = "{4665, 0}";
+			sepNavVisRange = "{0, 545}";
+			sepNavWindowFrame = "{{15, 138}, {925, 885}}";
+		};
+	};
+}

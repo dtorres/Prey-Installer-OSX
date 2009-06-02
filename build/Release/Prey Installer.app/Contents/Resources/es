@@ -1,0 +1,129 @@
+#!/bin/bash
+####################################################################
+# Prey - by Tomas Pollak (http://bootlog.org)
+# Spanish language file v 0.2 - by Juan C. Mardones (http://juanmardones.com)
+# URL : http://prey.bootlog.org
+# License: GPLv3
+####################################################################
+
+if [ -n "$uptime" ]; then # prey is already running
+
+# email template
+
+emailtext="
+Buenas noticias amigo mio, al parecer lo encontramos!
+
+Estado general del computador (uptime)
+--------------------------------------------------------------------
+$uptime
+
+Datos de conexion
+--------------------------------------------------------------------
+IP Publico: $publico 
+(Lugar aprox.: http://www.maxmind.com/app/locate_ip?ips=$publico). 
+
+IP interno: $interno.
+
+Enrutado de red
+--------------------------------------------------------------------
+Direccion MAC: $mac. Gateway: $routes
+
+Traceroute: 
+http://www.net.princeton.edu/cgi-bin/traceroute.pl?target=$publico&cmd=+Go+
+
+Datos sobre red WiFi
+--------------------------------------------------------------------
+$wifi_info
+
+En los ultimos $minutos minutos se han modificado estos archivos
+--------------------------------------------------------------------
+$archivos
+
+Programas en ejecucion
+--------------------------------------------------------------------
+$programas
+
+Conexiones abiertas
+--------------------------------------------------------------------
+$connections
+
+
+Ahora a agarrar al maldito!
+
+--
+Tu fiel servidor, Prey
+Para actualizaciones visita http://prey.bootlog.org
+"
+
+elif [ -n "$DEFAULT_INSTALLPATH" ]; then # we're running the installer
+
+	# installer messages
+	# TODO: translate this to spanish
+
+	HELLO_IN_LANGUAGE=" -- Prey hablara espanol entonces!"
+	WHERE_TO_INSTALL_PREY=" -> Donde quieres que instalemos Prey? [$DEFAULT_INSTALLPATH] "
+	USING_DEFAULT_INSTALL_PATH=" -- Usando la ruta de instalacion por defecto..."
+	INVALID_INSTALL_PATH=" !! Ruta invalida de instalacion. La carpeta superior no existe!\n"
+	SETTING_INSTALL_PATH=" -- Ok, instalaremos Prey en $INSTALLPATH."
+
+	DELETING_OLD_FILES=" -- Eliminando archivos antiguos de Prey...\n"
+	CONFIG_FILE_EXISTS=" -> Archivo de configuracion existe! Quieres que nos saltemos las preguntas de configuracion? (No recomendado) [n] "
+
+	SKIP_INSTALL_QUESTIONS=" -- Muy bien, solo actualizaremos los archivos necesarios!\n"
+
+	ENTER_EMAIL_ADDRESS=" -> A que casilla de email quieres que Prey envie el correo? (i.e. casilla@dominio.com) [] "
+	INVALID_EMAIL_ADDRESS=" !! Necesitas escribir una casilla de correo valida! Saliendo...\n"
+
+	ENTER_SMTP_SERVER=" -> Que servidor SMTP quieres que usemos? (con su puerto) [smtp.gmail.com:587] "
+	DEFAULT_SMTP_SERVER=" -- Usando Gmail como servidor STMP. "
+	ENTER_SMTP_USER=" -> Escribe tu nombre de usuario del servidor SMTP: (i.e. casilla@gmail.com)"
+	DEFAULT_SMTP_USER=" -- Nuestro usuario STMP sera entonces"
+	ENTER_SMTP_PASS=" -> Escribe tu contrasena para el servidor SMTP: (No va a mostrar nada) [] "
+	INVALID_SMTP_PASS=" !! Debes escribir una contrasena SMTP valida. Saliendo...\n"
+
+	CHECK_URL_OR_NOT=" -- Quieres que Prey use una URL de verificacion? (No significa que el reporte se enviara cada vez que Prey se ejecute) [n] "
+	ENTER_URL=" -- Ok, que URL quieres usar entonces? [i.e. http://miservidor.com/laptop_desaparecido] "
+	INVALID_URL=" !! Tienes que definir una URL. Saliendo...\n"
+	SET_TIMING=" -- Ok, la ultima. Con que frecuencia (en minutos) quieres que Prey se ejecute? [$TIMING] "
+
+	INSTALLING_SOFTWARE=" -- Ok, instalando el software necesario...\n"
+	COPYING_ISIGHTCAPTURE=" -- Copiando iSightCapture a $INSTALLPATH..."
+	COPYING_FILES="\n -- Copiando archivos necesarios a $INSTALLPATH y definiendo permisos..."
+	ADDING_CRONTAB=" -- Agregando entrada en el crontab..."
+	INSTALL_OK="\033[1m\n -- Todo bien! Prey esta instalado y listo para volar. Ahora puedes eliminar esta carpeta.
+ -- Si alguna vez quieres desinstalar Prey, basta con que elimines la carpeta $INSTALLPATH
+    y remuevas la linea de Prey del crontab de root:\n
+\t $ sudo rm -Rf $INSTALLPATH\n \t $ sudo crontab -l | grep -v prey | sudo crontab -\n
+ -- Para actualizaciones recuerda visitar http://prey.bootlog.org!\033[0m\n\n"
+
+else
+
+	# installer messages
+
+	STRING_START="\n ### PREY $version despliega sus alas!\n"
+	STRING_CHECK_URL=" -- Revisando URL..."
+	STRING_PROBLEM=" -- OUCH!!"
+	STRING_NO_PROBLEM=" -- Nada de que preocuparse. :)\n"
+	STRING_GET_IP=" -- Obteniendo la direccion IP publica..."
+	STRING_GET_LAN_IP=" -- Obteniendo la direccion IP privada de la LAN..."
+	STRING_GET_MAC_AND_WIFI=" -- Obteniendo direccion MAC, tabla de rutas e informacion de la Red Wifi..."
+	STRING_TRY_TO_CONNECT=" -- Intentando conectarnos a la primera red abierta disponible..."
+	STRING_NO_CONNECT_TO_WIFI=" -- No encontramos la forma de conectarnos a una red Wifi abierta!"
+	STRING_TRACE=" -- Rastreando la ruta completa hacia Internet..."
+	STRING_UPTIME_AND_PROCESS=" -- Obteniendo el uptime y la lista de programas en ejecucion..."
+	STRING_MODIFIED_FILES=" -- Obteniendo una lista de los archivos recientemente modificados..."
+	STRING_ACTIVE_CONNECTIONS=" -- Obteniendo la lista de las conecciones activas..."
+	STRING_WRITE_EMAIL=" -- Redactando el correo electronico..."
+	STRING_TAKE_IMAGE=" -- Tomando una captura de pantalla y una foto de la persona..."
+	STRING_TAKE_IMAGE_DONE=" -- Finalizando la captura de imagenes..."
+	STRING_SENDING_EMAIL=" -- Enviando el correo electronico..."
+	STRING_ERROR_EMAIL="\n\033[1m !! Hubo un problema enviando el correo electronico. ¿Estas seguro de que fue configurado correctamente?
+    Si estas usando Gmail, intenta removiendo el '@gmail.com' del campo smtp_username en el archivo de configuracion.\033[0m\n"
+	STRING_REMOVE_EVIDENCE=" -- Eliminando la evidencia..."
+	STRING_CHANGE_WALLPAPER=" -- Cambiando el fondo de pantalla para alertar a la persona y a los que esten cerca..."
+	STRING_SHOW_ALERT=" -- Mostrando nuestro mensaje de alerta..."
+	STRING_XKILL=" -- Intentando sacarlo de la sesion X!"
+	STRING_MACKILL="Como se supone que realizamos esto en Mac OS?"
+	STRING_DONE=" -- Todo listo! Suerte con la caceria! :)\n"
+
+fi
