@@ -36,7 +36,7 @@ on clicked theObject
 			display dialog "Faltan Datos para envio de Correo" buttons {"Volver"}
 			set error_data to true
 		end if
-		if idioma is equal to "Inglés" then
+		if (idioma = "Inglés" or idioma = "English") then
 			set idioma to "en"
 		else
 			set idioma to "es"
