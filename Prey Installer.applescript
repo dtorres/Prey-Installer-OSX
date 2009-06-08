@@ -24,12 +24,12 @@ on clicked theObject
 		set frecuencia to contents of combo box "frecuencia" of tab view item "General" of tab view "tabsis" of window "Prey 0.2"
 		set myCount to (count every word of email)
 		set error_data to false
-		set isEmail to (email contains "@" and myCount > 2 and myCount < 4)
+		set isEmail to (email contains "@" and myCount > 2)
 		if email is equal to "nombre@dominio.com" then
-			display dialog "Falta el correo" buttons {"Volver"}
+			display dialog "Falta el correo | Email Missing" buttons {"OK"}
 			set error_data to true
 		else if isEmail is false then
-			display dialog "Falta el correo" buttons {"Volver"}
+			display dialog "Falta el correo | Email Missing" buttons {"OK"}
 			set error_data to true
 		end if
 		if (smtppass = "" or smtpuser = "" or smtpserver = "") then
@@ -75,6 +75,10 @@ on clicked theObject
 	else if (title of theObject = "Siguiente Paso" or title of theObject = "Next Step") then
 		tell tab view "tabsis" of window "Prey 0.2"
 			set current tab view item to tab view item "Avanzado"
+		end tell
+	else if (title of theObject = "Back" or title of theObject = "Atras") then
+		tell tab view "tabsis" of window "Prey 0.2"
+			set current tab view item to tab view item "General"
 		end tell
 	end if
 end clicked
