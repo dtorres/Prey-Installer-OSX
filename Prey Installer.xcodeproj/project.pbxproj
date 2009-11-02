@@ -29,7 +29,7 @@
 		5A291ED1103CA98B0090BFFD /* config in Resources */ = {isa = PBXBuildFile; fileRef = 5A291ED0103CA98B0090BFFD /* config */; };
 		5A62F5D71037A1AA003755DA /* header.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A62F5D61037A1AA003755DA /* header.png */; };
 		5A886812103B6ABD00E0AE83 /* Imagen-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A886811103B6ABD00E0AE83 /* Imagen-4.png */; };
-		5AFA974D0FD48EE8004A3823 /* prey-installer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */; };
+		5AE54496106AB30E003D55D6 /* prey-installer.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5AE54495106AB30E003D55D6 /* prey-installer.icns */; };
 		60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60A014C20DBD2AA20071D9A8 /* MainMenu.xib */; };
 		D045BE6C103E34490013FE9F /* prey.png in Resources */ = {isa = PBXBuildFile; fileRef = D045BE6B103E34490013FE9F /* prey.png */; };
 /* End PBXBuildFile section */
@@ -46,7 +46,7 @@
 		5A291ED0103CA98B0090BFFD /* config */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = config; sourceTree = "<group>"; };
 		5A62F5D61037A1AA003755DA /* header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = header.png; sourceTree = "<group>"; };
 		5A886811103B6ABD00E0AE83 /* Imagen-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Imagen-4.png"; sourceTree = "<group>"; };
-		5AFA974A0FD48EE8004A3823 /* prey-installer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "prey-installer.icns"; sourceTree = "<group>"; };
+		5AE54495106AB30E003D55D6 /* prey-installer.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = "prey-installer.icns"; sourceTree = "<group>"; };
 		60A014C30DBD2AA20071D9A8 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		65359356078DD41800E8BB2F /* AppleScriptKit.sdef */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.sdef; name = AppleScriptKit.sdef; path = /System/Library/Frameworks/AppleScriptKit.framework/Versions/A/Resources/AppleScriptKit.sdef; sourceTree = "<absolute>"; };
 		D045BE6B103E34490013FE9F /* prey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = prey.png; sourceTree = "<group>"; };
@@ -128,9 +128,9 @@
 			children = (
 				5A291ED0103CA98B0090BFFD /* config */,
 				5A886811103B6ABD00E0AE83 /* Imagen-4.png */,
-				5AFA974A0FD48EE8004A3823 /* prey-installer.icns */,
 				D045BE6B103E34490013FE9F /* prey.png */,
 				5A62F5D61037A1AA003755DA /* header.png */,
+				5AE54495106AB30E003D55D6 /* prey-installer.icns */,
 				60A014C20DBD2AA20071D9A8 /* MainMenu.xib */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 				65359356078DD41800E8BB2F /* AppleScriptKit.sdef */,
@@ -212,11 +212,11 @@
 			files = (
 				257572C8072881A4000BE9CA /* InfoPlist.strings in Resources */,
 				60A014C40DBD2AA20071D9A8 /* MainMenu.xib in Resources */,
-				5AFA974D0FD48EE8004A3823 /* prey-installer.icns in Resources */,
 				5A62F5D71037A1AA003755DA /* header.png in Resources */,
 				5A886812103B6ABD00E0AE83 /* Imagen-4.png in Resources */,
 				5A291ED1103CA98B0090BFFD /* config in Resources */,
 				D045BE6C103E34490013FE9F /* prey.png in Resources */,
+				5AE54496106AB30E003D55D6 /* prey-installer.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

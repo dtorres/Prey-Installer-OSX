@@ -66,6 +66,7 @@ on clicked theObject
 			set smtppass to contents of text field "smtppass" of tab view item "mailconfig" of tab view "tabsis" of window "Prey 0.3"
 			set checkivi to contents of text field "checkivi" of tab view item "mailconfig" of tab view "tabsis" of window "Prey 0.3"
 			set checkivi to ReplaceText("/", "\\/", checkivi)
+			set enc_pass to (do shell script "echo " & smtppass & " | openssl enc -base64")
 			do shell script "
 			cd /tmp/prey
 			sed -i -e \"s/post_method='.*'/post_method='email'/\" temp_config
@@ -74,7 +75,7 @@ on clicked theObject
 			sed -i -e \"s/check_url='.*'/check_url='" & checkivi & "'/\" temp_config
 			sed -i -e \"s/smtp_server='.*'/smtp_server='" & smtpserver & "'/\" temp_config
 			sed -i -e \"s/smtp_username='.*'/smtp_username='" & smtpuser & "'/\" temp_config
-			sed -i -e \"s/smtp_password='.*'/smtp_password='" & smtppass & "'/\" temp_config" with administrator privileges
+			sed -i -e \"s/smtp_password='.*'/smtp_password='" & enc_pass & "'/\" temp_config" with administrator privileges
 		end if
 		do shell script "
 		cd /tmp/prey
@@ -89,11 +90,6 @@ on clicked theObject
 		tell current application to quit
 	end if
 end clicked
-on choose menu item theObject
-	if title of theObject = "Acerca de Prey Installer" then
-		load nib "creditos"
-	end if
-end choose menu item
 (*Lineas inutiles *)
 on bounds changed theObject
 end bounds changed

@@ -4,7 +4,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1411, 718}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 109}";
+			sepNavVisRange = "{0, 118}";
 		};
 	};
 	257572C2072881A4000BE9CA /* Prey Installer */ = {
@@ -143,29 +143,29 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 272930609;
-			PBXWorkspaceStateSaveDate = 272930609;
+			PBXPerProjectTemplateStateSaveDate = 278812677;
+			PBXWorkspaceStateSaveDate = 278812677;
 		};
 		perUserProjectItems = {
 			5A291ED5103CB58D0090BFFD /* PBXBookmark */ = 5A291ED5103CB58D0090BFFD /* PBXBookmark */;
-			5A291ED6103CB58D0090BFFD /* PBXBookmark */ = 5A291ED6103CB58D0090BFFD /* PBXBookmark */;
 			5A291EDA103CB58D0090BFFD /* PBXTextBookmark */ = 5A291EDA103CB58D0090BFFD /* PBXTextBookmark */;
 			5A291EDC103CB58D0090BFFD /* PBXBookmark */ = 5A291EDC103CB58D0090BFFD /* PBXBookmark */;
 			5A291EF6103CBD130090BFFD /* PBXTextBookmark */ = 5A291EF6103CBD130090BFFD /* PBXTextBookmark */;
-			5A62F5D91037AB42003755DA /* PBXBookmark */ = 5A62F5D91037AB42003755DA /* PBXBookmark */;
-			5A732120103CDA0500DFA897 /* PBXTextBookmark */ = 5A732120103CDA0500DFA897 /* PBXTextBookmark */;
+			5A52A555109E58030014B352 /* PBXTextBookmark */ = 5A52A555109E58030014B352 /* PBXTextBookmark */;
 			5A886820103B8BCD00E0AE83 /* PBXBookmark */ = 5A886820103B8BCD00E0AE83 /* PBXBookmark */;
-			5A8EDB9B1044992400FFB657 /* PBXTextBookmark */ = 5A8EDB9B1044992400FFB657 /* PBXTextBookmark */;
 			5A90F1DA0FD4A99300696802 /* PBXBookmark */ = 5A90F1DA0FD4A99300696802 /* PBXBookmark */;
 			5A90F1E00FD4A99300696802 /* PlistBookmark */ = 5A90F1E00FD4A99300696802 /* PlistBookmark */;
 			5A90F1E80FD4A99300696802 /* PBXBookmark */ = 5A90F1E80FD4A99300696802 /* PBXBookmark */;
-			5A90F1EA0FD4A99300696802 /* PBXBookmark */ = 5A90F1EA0FD4A99300696802 /* PBXBookmark */;
-			5A90F2030FD4AC4600696802 /* PBXTextBookmark */ = 5A90F2030FD4AC4600696802 /* PBXTextBookmark */;
-			5A90F2060FD4AC4600696802 /* PlistBookmark */ = 5A90F2060FD4AC4600696802 /* PlistBookmark */;
 			5A90F20F0FD4AC4600696802 /* PBXTextBookmark */ = 5A90F20F0FD4AC4600696802 /* PBXTextBookmark */;
-			5ACB67F9104339E700970791 /* PBXBookmark */ = 5ACB67F9104339E700970791 /* PBXBookmark */;
+			5A9E5C86109E5CCB00118FD4 /* PBXTextBookmark */ = 5A9E5C86109E5CCB00118FD4 /* PBXTextBookmark */;
+			5AA6AFAE106AC557006BA8A9 /* PlistBookmark */ = 5AA6AFAE106AC557006BA8A9 /* PlistBookmark */;
 			5ACB67FC104339E700970791 /* PBXBookmark */ = 5ACB67FC104339E700970791 /* PBXBookmark */;
-			5ACB67FE10433B9300970791 /* PBXTextBookmark */ = 5ACB67FE10433B9300970791 /* PBXTextBookmark */;
+			5AE54453106A81B5003D55D6 /* PBXBookmark */ = 5AE54453106A81B5003D55D6 /* PBXBookmark */;
+			5AE54499106AB586003D55D6 /* PBXBookmark */ = 5AE54499106AB586003D55D6 /* PBXBookmark */;
+			5AE5449A106AB586003D55D6 /* PBXBookmark */ = 5AE5449A106AB586003D55D6 /* PBXBookmark */;
+			5AE5449C106AB586003D55D6 /* PBXTextBookmark */ = 5AE5449C106AB586003D55D6 /* PBXTextBookmark */;
+			5AE5449D106AB586003D55D6 /* PBXTextBookmark */ = 5AE5449D106AB586003D55D6 /* PBXTextBookmark */;
+			5AE544A0106AB586003D55D6 /* PBXBookmark */ = 5AE544A0106AB586003D55D6 /* PBXBookmark */;
 			5AFA97660FD49D51004A3823 /* PBXTextBookmark */ = 5AFA97660FD49D51004A3823 /* PBXTextBookmark */;
 			5AFA97670FD49D51004A3823 /* PBXTextBookmark */ = 5AFA97670FD49D51004A3823 /* PBXTextBookmark */;
 		};
@@ -191,10 +191,6 @@
 		isa = PBXBookmark;
 		fRef = 5A886811103B6ABD00E0AE83 /* Imagen-4.png */;
 	};
-	5A291ED6103CB58D0090BFFD /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 5A62F5D61037A1AA003755DA /* header.png */;
-	};
 	5A291EDA103CB58D0090BFFD /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 5A291ED0103CA98B0090BFFD /* config */;
@@ -219,33 +215,19 @@
 		vrLen = 1652;
 		vrLoc = 81;
 	};
-	5A62F5D91037AB42003755DA /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
-	};
-	5A732120103CDA0500DFA897 /* PBXTextBookmark */ = {
+	5A52A555109E58030014B352 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 089C165DFE840E0CC02AAC07 /* English */;
-		name = "InfoPlist.strings: 1";
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 104";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 4701;
 		rType = 0;
-		vrLen = 109;
-		vrLoc = 0;
+		vrLen = 2953;
+		vrLoc = 1267;
 	};
 	5A886820103B8BCD00E0AE83 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = 5A62F5D61037A1AA003755DA /* header.png */;
-	};
-	5A8EDB9B1044992400FFB657 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
-		name = "Prey Installer.applescript: 108";
-		rLen = 0;
-		rLoc = 4756;
-		rType = 0;
-		vrLen = 2853;
-		vrLoc = 1615;
 	};
 	5A90F1DA0FD4A99300696802 /* PBXBookmark */ = {
 		isa = PBXBookmark;
@@ -266,31 +248,6 @@
 		isa = PBXBookmark;
 		fRef = 65359356078DD41800E8BB2F /* AppleScriptKit.sdef */;
 	};
-	5A90F1EA0FD4A99300696802 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = 5AFA974A0FD48EE8004A3823 /* prey-installer.icns */;
-	};
-	5A90F2030FD4AC4600696802 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 197;
-		vrLoc = 0;
-	};
-	5A90F2060FD4AC4600696802 /* PlistBookmark */ = {
-		isa = PlistBookmark;
-		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
-		fallbackIsa = PBXBookmark;
-		isK = 0;
-		kPath = (
-		);
-		name = "/Users/warorface/Desktop/Prey Installer/Info.plist";
-		rLen = 0;
-		rLoc = 2147483647;
-	};
 	5A90F20F0FD4AC4600696802 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
@@ -301,23 +258,66 @@
 		vrLen = 197;
 		vrLoc = 0;
 	};
-	5ACB67F9104339E700970791 /* PBXBookmark */ = {
-		isa = PBXBookmark;
-		fRef = D045BE6B103E34490013FE9F /* prey.png */;
+	5A9E5C86109E5CCB00118FD4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
+		name = "Prey Installer.applescript: 104";
+		rLen = 0;
+		rLoc = 4701;
+		rType = 0;
+		vrLen = 2654;
+		vrLoc = 1967;
+	};
+	5AA6AFAE106AC557006BA8A9 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 257572D5072881A4000BE9CA /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/warorface/Downloads/Speed Download/Applications/Prey-Installer-OSX/Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
 	};
 	5ACB67FC104339E700970791 /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = D045BE6B103E34490013FE9F /* prey.png */;
 	};
-	5ACB67FE10433B9300970791 /* PBXTextBookmark */ = {
+	5AE54453106A81B5003D55D6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5A62F5D61037A1AA003755DA /* header.png */;
+	};
+	5AE54499106AB586003D55D6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D045BE6B103E34490013FE9F /* prey.png */;
+	};
+	5AE5449A106AB586003D55D6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AE54495106AB30E003D55D6 /* prey-installer.icns */;
+	};
+	5AE5449C106AB586003D55D6 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */;
-		name = "Prey Installer.applescript: 62";
-		rLen = 783;
-		rLoc = 2573;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 1";
+		rLen = 0;
+		rLoc = 0;
 		rType = 0;
-		vrLen = 2305;
-		vrLoc = 2421;
+		vrLen = 197;
+		vrLoc = 0;
+	};
+	5AE5449D106AB586003D55D6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 089C165DFE840E0CC02AAC07 /* English */;
+		name = "InfoPlist.strings: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 118;
+		vrLoc = 0;
+	};
+	5AE544A0106AB586003D55D6 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 5AE54495106AB30E003D55D6 /* prey-installer.icns */;
 	};
 	5AFA97660FD49D51004A3823 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -341,9 +341,9 @@
 	};
 	DA206CF3015C4E8B03C91932 /* Prey Installer.applescript */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1411, 1586}}";
-			sepNavSelRange = "{4756, 0}";
-			sepNavVisRange = "{1615, 2853}";
+			sepNavIntBoundsRect = "{{0, 0}, {1411, 1560}}";
+			sepNavSelRange = "{4701, 0}";
+			sepNavVisRange = "{1967, 2654}";
 			sepNavWindowFrame = "{{15, 138}, {925, 885}}";
 		};
 	};
