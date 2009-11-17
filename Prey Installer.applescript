@@ -54,9 +54,14 @@ on clicked theObject
 			set wsdevicekey to contents of text field "devicekey" of tab view item "wslogin" of tab view "tabsis" of window "Prey 0.3"
 			set wsaklength to (length of wsapikey)
 			set wsdklength to (length of wsdevicekey)
+			set validkeys to (do shell script "curl -s -X PUT -u " & wsapikey & ":x http://control.preyproject.com/devices/" & wsdevicekey & ".xml -d device[synced]=1")
 			if ((wsaklength is not equal to 12) or (wsdklength is not equal to 6)) then
 				set installcheck to false
-				display dialog "Please provide valid API Key & Device Key"
+				display dialog "Please provide valid API Key & Device Key
+Get yours at http://control.preyproject.com"
+			else if (validkeys is not equal to "OK") then
+				display dialog "These Keys are not registered in our system
+Get yours at http://control.preyproject.com"
 			else
 				set installcheck to true
 				do shell script "
