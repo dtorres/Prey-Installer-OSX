@@ -8,7 +8,6 @@ on ReplaceText(find, replace, subject)
 	return subject
 end ReplaceText
 global selectedmethod
-global installcheck
 on clicked theObject
 	if (name of theObject = "wsselected") then
 		set selectedmethod to true
@@ -40,8 +39,12 @@ on clicked theObject
 		set apth to ReplaceText(" ", "\\ ", apth)
 		set apth to "/Volumes/" & apth & "Contents/Resources/"
 		do shell script "cd " & apth & "
-		mkdir /tmp/prey
-		cp config /tmp/prey/temp_config"
+		sudo rm -Rf /usr/share/prey
+		sudo mkdir /tmp/prey
+		sudo cp config /tmp/prey/temp_config
+		sudo cp com.preyproject.PreyMac.plist /tmp/prey/com.preyproject.PreyMac.plist
+		sudo unzip -u prey.zip -d /usr/share/prey
+		" with administrator privileges
 		set idioma to contents of combo box "idioma" of tab view item "general" of tab view "tabsis" of window "Prey 0.3"
 		if (idioma = "Inglés" or idioma = "English") then
 			set idioma to "en"
@@ -49,27 +52,15 @@ on clicked theObject
 			set idioma to "es"
 		end if
 		set frecuencia to contents of combo box "frecuencia" of tab view item "general" of tab view "tabsis" of window "Prey 0.3"
+		do shell script "echo 'Aqui va el modificador de frecuencia para launchd'" (*TO DO*)
 		if (selectedmethod is true) then
 			set wsapikey to contents of text field "apikey" of tab view item "wslogin" of tab view "tabsis" of window "Prey 0.3"
 			set wsdevicekey to contents of text field "devicekey" of tab view item "wslogin" of tab view "tabsis" of window "Prey 0.3"
-			set wsaklength to (length of wsapikey)
-			set wsdklength to (length of wsdevicekey)
-			set validkeys to (do shell script "curl -s -X PUT -u " & wsapikey & ":x http://control.preyproject.com/devices/" & wsdevicekey & ".xml -d device[synced]=1")
-			if ((wsaklength is not equal to 12) or (wsdklength is not equal to 6)) then
-				set installcheck to false
-				display dialog "Please provide valid API Key & Device Key
-Get yours at http://control.preyproject.com"
-			else if (validkeys is not equal to "OK") then
-				display dialog "These Keys are not registered in our system
-Get yours at http://control.preyproject.com"
-			else
-				set installcheck to true
-				do shell script "
-				cd /tmp/prey
-				sed -i -e \"s/lang='.*'/lang='" & idioma & "'/\" temp_config
-				sed -i -e \"s/api_key='.*'/api_key='" & wsapikey & "'/\" temp_config
-				sed -i -e \"s/device_key='.*'/device_key='" & wsdevicekey & "'/\" temp_config" with administrator privileges
-			end if
+			do shell script "
+			cd /tmp/prey
+			sed -i -e \"s/lang='.*'/lang='" & idioma & "'/\" temp_config
+			sed -i -e \"s/api_key='.*'/api_key='" & wsapikey & "'/\" temp_config
+			sed -i -e \"s/device_key='.*'/device_key='" & wsdevicekey & "'/\" temp_config" with administrator privileges
 		else if (selectedmethod is false) then
 			set email to contents of text field "email" of tab view item "mailconfig" of tab view "tabsis" of window "Prey 0.3"
 			set smtpuser to contents of text field "smtpuser" of tab view item "mailconfig" of tab view "tabsis" of window "Prey 0.3"
@@ -88,21 +79,17 @@ Get yours at http://control.preyproject.com"
 			sed -i -e \"s/smtp_username='.*'/smtp_username='" & smtpuser & "'/\" temp_config
 			sed -i -e \"s/smtp_password='.*'/smtp_password='" & enc_pass & "'/\" temp_config" with administrator privileges
 		end if
+		do shell script "
+		cd /tmp/prey
+		sudo cp temp_config /usr/share/prey/config
+		sudo cp com.preyproject.PreyMac.plist /ruta/por/definir/com.preyproject.PreyMac.plist (*TO DO*)
+		launchctl load /ruta/por/definir/com.preyproject.PreyMac.plist (*TO DO*)
+		rm -r /tmp/prey
+		" with administrator privileges
 		(* Instalacion Ended*)
-		if (installcheck is true) then
-			do shell script "
-			sudo rm -Rf /usr/share/prey
-			sudo unzip -u prey.zip -d /usr/share/prey
-			cd /tmp/prey
-			sudo cp temp_config /usr/share/prey/config
-			rm -r /tmp/prey
-			(sudo crontab -l | grep -v prey; echo \"*/" & frecuencia & " * * * * /usr/share/prey/prey.sh > /dev/null \") | sudo crontab -" with administrator privileges
-			tell tab view "tabsis" of window "Prey 0.3"
-				set current tab view item to tab view item "finish"
-			end tell
-		else
-			set installcheck to true
-		end if
+		tell tab view "tabsis" of window "Prey 0.3"
+			set current tab view item to tab view item "finish"
+		end tell
 	else if (name of theObject = "quitprey") then
 		tell current application to quit
 	end if
